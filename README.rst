@@ -35,6 +35,23 @@ Or using `init_app`:
     p = PaperTrail()
     p.init_app(app)
 
+Config
+==============
+
+Required:
+
+.. code:: python
+
+    app.config['PAPERTRAIL_HOST'] = 'your papertrail host setup'
+    app.config['PAPERTRAIL_PORT'] = 'your papertrail port setup'
+
+Optional:
+
+.. code:: python
+
+    app.config['PAPERTRAIL_APP'] = str(app)  # Your papertrail app name
+    app.config['PAPERTRAIL_LOGFORMAT'] = '%(asctime)s %(hostname)s {0}: %(levelname)s %(message)s'.format(str(app))  # Log format
+
 Author
 ======
 
