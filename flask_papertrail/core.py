@@ -21,7 +21,7 @@ class PaperTrail(object):
         use with papertrail setup
         """
         if any(k not in app.config for k in REQUIRE_CONFIG_KEYS):
-            raise ConfigError
+            raise ConfigError('{0} is required'.format(REQUIRE_CONFIG_KEYS))
 
         app_name = app.config.setdefault('PAPERTRAIL_APP', str(app))
         f = _ContextFilter()
