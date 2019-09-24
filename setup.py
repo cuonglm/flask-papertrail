@@ -21,7 +21,7 @@ setup(
     author=flask_papertrail.__author__,
     author_email=flask_papertrail.__email__,
     license='BSD',
-    url='https://github.com/Gnouc/flask_papertrail',
+    url='https://github.com/cuonglm/flask_papertrail',
     keywords=['flask', 'log'],
     install_requires=[
         'Flask'

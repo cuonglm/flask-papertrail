@@ -3,8 +3,8 @@ flask_papertrail
 
 flask_papertrail -- Easily setup papertrail to your Flask application
 
-.. image:: https://travis-ci.org/Gnouc/flask-papertrail.svg?branch=master
-    :target: https://travis-ci.org/Gnouc/flask-papertrail
+.. image:: https://travis-ci.org/cuonglm/flask-papertrail.svg?branch=master
+    :target: https://travis-ci.org/cuonglm/flask-papertrail
 
 Installation
 ============
@@ -60,4 +60,4 @@ Cuong Manh Le cuong.manhle.vn@gmail.com
 License
 =======
 
-See `LICENSE <https://github.com/Gnouc/flask-papertrail/blob/master/LICENSE>`__
+See `LICENSE <https://github.com/cuonglm/flask-papertrail/blob/master/LICENSE>`__
