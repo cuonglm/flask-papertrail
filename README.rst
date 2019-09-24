@@ -1,5 +1,5 @@
 flask_papertrail
-====
+================
 
 flask_papertrail -- Easily setup papertrail to your Flask application
 
