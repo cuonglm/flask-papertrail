@@ -22,7 +22,7 @@ Usage
     from flask_papertrail import PaperTrail
 
     app = Flask(__name__)
-    Papertrail(app)
+    PaperTrail(app)
 
 Or using `init_app`:
 
